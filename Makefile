@@ -8,4 +8,7 @@ test: 9cc
 clean:
 		rm -f 9cc *.o *~ tmp*
 
+watch:
+		watchmedo shell-command --patterns="*.c;*test.sh" --command="make test" .
+
 .PHONY: test clean
