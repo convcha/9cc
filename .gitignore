@@ -4,3 +4,4 @@ tmp*
 9cc
 cmake-build-debug
 node_modules
+core*
